@@ -1,5 +1,4 @@
 import os
-import tqdm
 receptor = input('Enter receptor file name (in pdb) : ')
 ligand = input('Enter ligand file name(in sdf) : ')
 x = float(input('Enter x coordinate: '))
@@ -10,7 +9,7 @@ output_file = str(input('Enter output file name: '))
 
 import subprocess
 subprocess.run(['./prepare_receptor', '-r', receptor, '-o', 'receptor.pdbqt'])
-subprocess.run(['./prepare_ligand', '-r', ligand, '-o', 'ligand.pdbqt'])
+subprocess.run(['./prepare_ligand', ligand, '-o', 'ligand.pdbqt'])
 center = []
 center.append(x)
 center.append(y)
