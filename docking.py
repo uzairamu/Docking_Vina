@@ -11,4 +11,4 @@ def docking(receptor_file,ligand_file,center : list, box_size : list, output : s
     v.write_pose('pose.pdbqt' , overwrite = True)
     v.dock(exhaustiveness=32, n_poses=20)
     v.write_poses(pdbqt_filename = output , n_poses=5, overwrite=True)
-print(f'Score after minimization : %.3f (kcal/mol) {energy_minimized[0]}')
+    print(f'Score after minimization : %.3f (kcal/mol) {energy_minimized[0]}')
