@@ -20,6 +20,6 @@ box_size.append(box)
 box_size.append(box)
 box_size.append(box)
 
-import docking_HSA
-from docking_HSA import docking
+import docking
+from docking import docking
 docking(ligand_file = 'ligand.pdbqt', receptor_file = 'receptor.pdbqt', center = center, box_size = box_size, output = output_file)
