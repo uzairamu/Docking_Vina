@@ -13,7 +13,7 @@ Note: You must know the x,y,z coordinates of grid as desired for your docking ( 
    ```
    cd Docking_Vina
    ```
-6. Make sure you have your receptor file (in pdb format) and ligand file (in sdf format) in the Docking_Vina directory. Now just run the python script
+6. Make sure you have your receptor file (in pdb format) and ligand file (in mol2 format) in the Docking_Vina directory. Now just run the python script
    ```
    python docking_vina.py
    ```
