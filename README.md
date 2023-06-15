@@ -4,7 +4,7 @@ Note: You must know the x,y,z coordinates of grid as desired for your docking ( 
 
 1. Install Autodock vina if not already installed. 
     Just run 'sudo apt install autodock-vina' in the terminal if you are using Ubuntu. 
-2. Clone the repository
+2. Clone the repository :
    Open the terminal in an approiate location in your device and clone the repo simply using:
    ```
    git clone https://github.com/uzairamu/Docking_Vina.git
