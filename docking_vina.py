@@ -11,7 +11,7 @@ import subprocess
 subprocess.run(['chmod', '+x', './prepare_receptor'])
 subprocess.run(['chmod', '+x', './prepare_ligand'])
 subprocess.run(['sudo','./prepare_receptor', '-r', receptor, '-o', 'receptor.pdbqt'])
-subprocess.run(['sudo','./prepare_ligand', ligand, '-o', 'ligand.pdbqt'])
+subprocess.run(['sudo','./prepare_ligand', 'l', ligand, '-o', 'ligand.pdbqt'])
 center = []
 center.append(x)
 center.append(y)
