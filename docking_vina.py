@@ -8,6 +8,8 @@ box= float(input('Enter box coordinate: '))
 output_file = str(input('Enter output file name: '))
 
 import subprocess
+subprocess.run(['chmod', '+x', './prepare_receptor'])
+subprocess.run(['chmod', '+x', './prepare_ligand'])
 subprocess.run(['sudo','./prepare_receptor', '-r', receptor, '-o', 'receptor.pdbqt'])
 subprocess.run(['sudo','./prepare_ligand', ligand, '-o', 'ligand.pdbqt'])
 center = []
