@@ -1,6 +1,6 @@
 import os
 receptor = input('Enter receptor file name (in pdb) : ')
-ligand = input('Enter ligand file name(in sdf) : ')
+ligand = input('Enter ligand file name(in mol2) : ')
 x = float(input('Enter x coordinate: '))
 y = float(input('Enter y coordinate: '))
 z = float(input('Enter z coordinate: '))
