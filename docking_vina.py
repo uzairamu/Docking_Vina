@@ -8,8 +8,8 @@ box= float(input('Enter box coordinate: '))
 output_file = str(input('Enter output file name: '))
 
 import subprocess
-subprocess.run(['./prepare_receptor', '-r', receptor, '-o', 'receptor.pdbqt'])
-subprocess.run(['./prepare_ligand', ligand, '-o', 'ligand.pdbqt'])
+subprocess.run(['sudo','./prepare_receptor', '-r', receptor, '-o', 'receptor.pdbqt'])
+subprocess.run(['sudo','./prepare_ligand', ligand, '-o', 'ligand.pdbqt'])
 center = []
 center.append(x)
 center.append(y)
