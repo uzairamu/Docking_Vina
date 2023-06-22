@@ -28,7 +28,7 @@ Note: You must know the x,y,z coordinates of grid as desired for your docking ( 
    ```
    Now just navigate to bin and copy the prepare_receptor and prepare_ligand files in Docking_Vina directory.
    
-6. Make sure you have your receptor file (in pdb format) and ligand file (in mol2 format) in the Docking_Vina directory. Now just run the python script
+6. Make sure you have your receptor file (in pdb format) and ligand file (in mol2 format) in the Docking_Vina directory. Now navigate back to Docking_Vina directory or you can simply run the terminal in Docking_Vina and run the python script.
    ```
    python docking_vina.py
    ```
